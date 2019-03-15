@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--ng-app activa el frimework o como se escriba xd-->>
+<html lang="en" ng-app>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/lib/angular.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        {{"Hola Mundo"}}
+    </h1>
+    <h4>Angular js</h4>
+    <br>
+    <p>
+        <h1>Filtros en Angular js</h1>
+        <h4>
+            {{"Carlos"}}
+        </h4>
+        <br>
+        <h4>{{"Carlos" | lowercase }}</h4>
+        <br>
+        <h4>{{"carlos" | uppercase}}</h4>
+    </p>
+    <br>
+
+    <p>
+        <h1>Filtros de moneda</h1>
+        <h4>{{10500 | currency}}</h4>
+        <br>
+        <h4>{{10500 | currency:'€'}}</h4>
+        <br>
+        <h4>{{150000 | number}}</h4>
+    </p>
+
+
+
+
+
+
+
+</body>
+
+</html>
